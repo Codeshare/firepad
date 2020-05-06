@@ -64,14 +64,14 @@ module.exports = function (grunt) {
           "lib/text-operation.js",
           "lib/annotation-list.js",
           "lib/cursor.js",
-          "lib/firebase-adapter.js",
-          "lib/rich-text-toolbar.js",
+          // "lib/firebase-adapter.js",
+          // "lib/rich-text-toolbar.js",
           "lib/wrapped-operation.js",
           "lib/undo-manager.js",
           "lib/client.js",
           "lib/editor-client.js",
-          "lib/ace-adapter.js",
-          "lib/monaco-adapter.js",
+          // "lib/ace-adapter.js",
+          // "lib/monaco-adapter.js",
           "lib/constants.js",
           "lib/entity-manager.js",
           "lib/entity.js",
@@ -82,9 +82,9 @@ module.exports = function (grunt) {
           "lib/line-formatting.js",
           "lib/line.js",
           "lib/parse-html.js",
-          "lib/serialize-html.js",
+          // "lib/serialize-html.js",
           "lib/text-pieces-to-inserts.js",
-          "lib/headless.js",
+          // "lib/headless.js",
           "lib/firepad.js"
         ],
         "dest": "dist/firepad.js"
@@ -92,7 +92,7 @@ module.exports = function (grunt) {
     },
     uglify: {
       options: {
-        preserveComments: "some"
+        preserveComments: false
       },
       "firepad-min-js": {
         src: "dist/firepad.js",
