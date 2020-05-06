@@ -262,7 +262,7 @@ a.firepad-btn:active {
   Note: When you download the generated font, turn on the "Base 64 Encode ..." option to generate the font inline
   in the CSS (to avoid needing to distribute a font file with firepad).
  */
-@font-face {
+/* @font-face {
   font-family: 'firepad';
   src:url('firepad.eot');
 }
@@ -283,7 +283,7 @@ a.firepad-btn:active {
   text-transform: none;
   line-height: 1;
   -webkit-font-smoothing: antialiased;
-}
+} */
 .firepad-tb-bold:before {
   content: "\e000";
 }
