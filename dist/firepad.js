@@ -4248,7 +4248,7 @@ firepad.Firepad = (function(global) {
 
     this.entityManager_ = new EntityManager();
 
-    this.firebaseAdapter_ = new FirebaseAdapter(ref, userId, userColor);
+    this.firebaseAdapter_ = new Firepad.FirebaseAdapter(ref, userId, userColor);
     if (this.codeMirror_) {
       this.richTextCodeMirror_ = new RichTextCodeMirror(this.codeMirror_, this.entityManager_, { cssPrefix: 'firepad-' });
       this.editorAdapter_ = new RichTextCodeMirrorAdapter(this.richTextCodeMirror_);
